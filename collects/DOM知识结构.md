@@ -1,4 +1,4 @@
-# Dom知识结构
+# DOM知识结构
 
 ## 节点操作
 
@@ -156,10 +156,10 @@ oNext.style.background='red';
 			window.onload=function(){
 				var oUl=document.querySelector("ul");
 				var aLi=document.querySelectorAll("li");
-				
+
 				console.log(oUl.childNodes[0].nodeValue)//111
 				console.log(oUl.childNodes[1].nodeValue)//null
-				
+
 			}
 		</script>
 	</head>
