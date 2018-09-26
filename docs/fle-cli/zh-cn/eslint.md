@@ -14,6 +14,7 @@ module.exports = {
   rules: {
     "no-var": 1,
     "no-alert": 1,
+    "standard/no-callback-literal": 0,
     "prefer-promise-reject-errors": 0,
     "no-unused-vars": config.dev ? 1 : 2,
     "no-debugger": config.dev ? 1 : 2,

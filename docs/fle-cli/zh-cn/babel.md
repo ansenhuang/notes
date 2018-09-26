@@ -4,12 +4,13 @@
 
 * ignore: `.min.js`
 * presets:
-  - env
-  - react (for react)
-  - stage-2
+  - @babel/preset-env
+  - @babel/preset-react (for react)
 * plugins:
-  - transform-vue-jsx (for vue)
-  - transform-decorators-legacy
-  - transform-runtime
-  - transform-class-properties (include from stage-2)
-  - syntax-dynamic-import (include from stage-2)
+  - babel-plugin-transform-vue-jsx (for vue)
+  - @babel/plugin-proposal-decorators
+  - @babel/plugin-proposal-export-namespace-from
+  - @babel/plugin-syntax-dynamic-import
+  - @babel/plugin-proposal-class-properties
+  - @babel/plugin-proposal-json-strings
+  - @babel/plugin-transform-runtime
