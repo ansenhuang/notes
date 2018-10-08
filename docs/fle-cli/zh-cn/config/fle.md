@@ -36,7 +36,8 @@
   "publicPath": "/",           # 指定编译后的文件路径引用前缀
 
   # 新增 #
-  "copyPath": "../template"    # 提供java模版（ftl）的自定义配置，可以在开发环境或生产环境将ftl文件打包到指定的目录，配合java服务进行本地测试
+  "copyPath": "../template",   # 提供java模版（ftl）的自定义配置，可以在开发环境或生产环境将ftl文件打包到指定的目录，配合java服务进行本地测试
+  "copyExtnames": ["ftl"]      # 自定义需要拷贝的文件后缀
 }
 ```
 
